@@ -1,3 +1,16 @@
-"scripts": {
-  "start": "node index.js"
+{
+  "name": "croo-whale-agent",
+  "version": "1.0.0",
+  "description": "ToS Trap Scanner Agent",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@croo-network/sdk": "latest",
+    "@google/generative-ai": "latest",
+    "dotenv": "^16.0.0",
+    "turndown": "^7.2.0"
+  }
 }
