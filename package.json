@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@croo-network/sdk": "^1.0.0",
+    "@croo-network/sdk": "latest",
     "@google/generative-ai": "^0.21.0",
     "dotenv": "^16.0.0",
     "turndown": "^7.2.0",
